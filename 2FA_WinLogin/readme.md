@@ -11,7 +11,7 @@ Google Authenticator administrator for Windows is a simple .Net C# WPF applicati
 
 ## Acknowledgements
 
-Thanks to **[Brandon Potter](github.com/brandonpotter/GoogleAuthenticator)** for the Google Authenticator library used in this application.
+Thanks to **[Brandon Potter](http://github.com/brandonpotter/GoogleAuthenticator)** for the Google Authenticator library used in this application.
 (Distributed under Apache License 2.0)
 
 ## Feedback or issues
@@ -21,7 +21,7 @@ As per the MIT licensing terms, this software is provided free of charge and wit
 ## License
 
 Copyright (c) 2007 - Project Balance, LLC
-Released under the**[MIT license](www.opensource.org/licenses/MIT)**
+Released under the**[MIT license](http://www.opensource.org/licenses/MIT)**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
