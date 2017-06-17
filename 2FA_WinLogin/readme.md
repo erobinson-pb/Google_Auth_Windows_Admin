@@ -12,7 +12,7 @@ Google Authenticator administrator for Windows is a simple .Net C# WPF applicati
 ## Acknowledgements
 
 Thanks to **[Brandon Potter](http://github.com/brandonpotter/GoogleAuthenticator)** for the Google Authenticator library used in this application.
-(Distributed under Apache License 2.0)
+(Distributed under **[Apache License 2.0](https://github.com/erobinson-pb/Google_Auth_Windows_Admin/blob/master/2FA_WinLogin/Google.Authenticator.dll_License.txt)**)
 
 ## Feedback or issues
 
