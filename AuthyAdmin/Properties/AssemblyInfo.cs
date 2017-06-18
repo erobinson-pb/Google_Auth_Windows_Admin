@@ -11,7 +11,7 @@ using System.Windows;
 [assembly: AssemblyDescription("A 2 factor authentication tool using Google Authenticator (Authy)")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Project Balance, LLC")]
-[assembly: AssemblyProduct("2FA Admin")]
+[assembly: AssemblyProduct("Authy Admin")]
 [assembly: AssemblyCopyright("Copyright ©  2017, Project Balance, LLC")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

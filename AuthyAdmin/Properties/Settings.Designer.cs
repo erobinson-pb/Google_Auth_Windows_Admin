@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _2FA_WinLogin.Properties {
+namespace _AuthyAdmin.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,7 +25,7 @@ namespace _2FA_WinLogin.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("OXettSLI+SHOfid2QRGuXg==")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string app {
             get {
                 return ((string)(this["app"]));
@@ -37,7 +37,7 @@ namespace _2FA_WinLogin.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("nIpt6Z4PqPbC+gGdKyo1KQ==")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string ak {
             get {
                 return ((string)(this["ak"]));

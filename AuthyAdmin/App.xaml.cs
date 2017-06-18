@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _2FA_WinLogin_Admin
+namespace _AuthyAdmin
 {
     /// <summary>
     /// Interaction logic for App.xaml

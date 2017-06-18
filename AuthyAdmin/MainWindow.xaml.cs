@@ -10,7 +10,7 @@ using System.Net;
 using System.IO;
 using System;
 
-namespace _2FA_WinLogin_Admin
+namespace _AuthyAdmin
 {
     /// Copyright (c) 2007 - Project Balance, LLC
     /// Released under the MIT license
@@ -152,8 +152,8 @@ namespace _2FA_WinLogin_Admin
         public MainWindow()
         {
             InitializeComponent();
-            strApp = _2FA_WinLogin.Properties.Settings.Default.app;//read app from app.config settings
-            strAuthKey = _2FA_WinLogin.Properties.Settings.Default.ak;//read authKey from app.config settings
+            strApp = _AuthyAdmin.Properties.Settings.Default.app;//read app from app.config settings
+            strAuthKey = _AuthyAdmin.Properties.Settings.Default.ak;//read authKey from app.config settings
             if (!string.IsNullOrEmpty(strApp)) { strApp = Encrypt.DecryptString(strApp, strStaticSecret); }//decrypt app
             if (!string.IsNullOrEmpty(strAuthKey)) { strAuthKey = Encrypt.DecryptString(strAuthKey, strStaticSecret); }//decrypt authKey
         }
@@ -249,7 +249,7 @@ namespace _2FA_WinLogin_Admin
             lblSetupCode.Visibility = Visibility.Hidden;
             imgCopyManualSetup.Visibility = Visibility.Hidden;
             imgCopyQR.Visibility = Visibility.Hidden;
-            if (imgQR.Source.ToString() != "pack://application:,,,/2FA_WinLogin;component/img/imgplaceholder.png")
+            if (imgQR.Source.ToString() != "pack://application:,,,/AuthyAdmin;component/img/imgplaceholder.png")
             {
                 Uri imgQRURI = new Uri("img\\imgplaceholder.png", UriKind.Relative);
                 imgQR.Source = new BitmapImage(imgQRURI);
@@ -279,10 +279,10 @@ namespace _2FA_WinLogin_Admin
                 {
                     //Yes - save
                     strApp = Encrypt.EncryptString(txtMyApp.Text, strStaticSecret);//Encrypt app name
-                    _2FA_WinLogin.Properties.Settings.Default.app = strApp;//Update user settings for app
+                    _AuthyAdmin.Properties.Settings.Default.app = strApp;//Update user settings for app
                     strAuthKey = Encrypt.EncryptString(txtSecretPW.Password, strStaticSecret); //Encrypt authkey
-                    _2FA_WinLogin.Properties.Settings.Default.ak = strAuthKey;//Update user settings for app
-                    _2FA_WinLogin.Properties.Settings.Default.Save();
+                    _AuthyAdmin.Properties.Settings.Default.ak = strAuthKey;//Update user settings for app
+                    _AuthyAdmin.Properties.Settings.Default.Save();
                 }
             }
         }
