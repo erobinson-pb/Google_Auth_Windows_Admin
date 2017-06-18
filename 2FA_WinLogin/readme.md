@@ -1,4 +1,4 @@
-<p align="left"><img src="http://projectbalance.com/wp-content/uploads/2013/08/PB-Logo.png"></p>
+<p align="left"><a href="http://www.projectbalance.com"><img src="http://projectbalance.com/wp-content/uploads/2013/08/PB-Logo.png"></a></p>
 <p align="left" Google Authenticator (Authy) administrator for Windows />
 
 ## About Google Authenticator administrator for Windows
